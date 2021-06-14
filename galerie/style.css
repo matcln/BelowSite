@@ -50,7 +50,8 @@ header li a {
 
 
 body{
-    background-color: #363535;
+    background: url("../media/couverture.png");
+    background-size: cover;
     height: 100vh;
 }
 h1{
