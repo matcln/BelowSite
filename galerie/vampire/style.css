@@ -51,7 +51,8 @@ header li a {
     float: left;
     color: rgba(241, 26, 26, 0.79);
 }/********************/
-.main button{
+button{
+    cursor: pointer;
     align-content: center;
     margin-top: 20px;
     padding: 4px 10px;

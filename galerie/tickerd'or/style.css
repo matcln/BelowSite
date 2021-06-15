@@ -51,15 +51,14 @@ header li a {
     float: left;
     color: rgba(241, 26, 26, 0.79);
 }/********************/
-.main button{
+button{
+    cursor: pointer;
     align-content: center;
     margin-top: 20px;
     padding: 4px 10px;
     border: none;
 }
-.main .button a{
-    background-size: cover;
-}
+
 body{
     /*padding-top: 75px;*/
     background: url("../../media/couverture.png"); /* couleur du back ground*/
