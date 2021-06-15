@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap');
 
@@ -30,29 +31,51 @@ a {
   color: black;
 }
 /* ******************* NAVBAR ******************* */
+ul {
+  margin: 0;
+  padding: 0;
+}
+li a:hover{
+  color: white;
+}
+li:hover{
+  transform: scale(1.25);
+}
+li {
+  list-style-type: none;
+}
+.a{
+  text-decoration: none;
+  color: black;
+}
 nav {
+  font-family: 'Advent Pro', sans-serif;
   overflow: hidden;
   background-color: rgb(0, 0, 0);/*rgb(31, 13, 48);*/
   position: fixed;
   width: 100%;
   opacity: 0.9;
+
 }
 header li {
+  /*font-family: 'Advent Pro', sans-serif;*/
   float: right;
-  font-size: 1.2em;
+  font-size: 1.0em;
 }
 header li a {
+  /*font-family: 'Advent Pro', sans-serif;*/
   text-decoration: none;
   font-weight: bold;
   display: block;
   text-align: center;
   padding: 18px 16px;
-  color: rgba(239, 22, 22, 0.79);
+  color: rgba(234, 16, 16, 0.79);
 }
 #logo {
+  /*font-family: 'Advent Pro', sans-serif;*/
   font-weight: bold;
   float: left;
-  color: rgba(87, 2, 2, 0.795);
+  color: rgba(241, 26, 26, 0.79);
 }
 /* **************** IMAGE PRINCIPALE ************* */
 #imagePrincipale {
@@ -127,19 +150,19 @@ h3 {
   padding-top: 60px;
 }
 #ocean {
-  background: url(media/Item\ \(2\).png) no-repeat 50%;
+  /*background: url(media/Item\ \(2\).png) no-repeat 50%;*/
   background-size: 225px 225px;
 }
 #chateau {
-  background: url(media/Item2\ \(1\).png) no-repeat 50%;
+  /*background: url(media/Item2\ \(1\).png) no-repeat 50%;*/
   background-size: 225px 225px;
 }
 #phare {
-  background: url(media/Item2\ \(2\).png) no-repeat 50%;
+  /*background: url(media/Item2\ \(2\).png) no-repeat 50%;*/
   background-size: 225px 225px;
 }
 #vignoble {
-  background: url(media/Item\ \(6\).png) no-repeat 50%;
+  /*background: url(media/Item\ \(6\).png) no-repeat 50%;*/
   background-size: 225px 225px;
 }
 #tourisme li {

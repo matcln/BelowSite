@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&display=swap');
 *, ::before, ::after{
-  box-sizinf: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -15,14 +16,21 @@ ul {
   margin: 0;
   padding: 0;
 }
+li a:hover{
+  color: white;
+}
+li:hover{
+  transform: scale(1.25);
+}
 li {
   list-style-type: none;
 }
-a{
+.a{
   text-decoration: none;
   color: black;
 }
 nav {
+  font-family: 'Advent Pro', sans-serif;
   overflow: hidden;
   background-color: rgb(0, 0, 0);/*rgb(31, 13, 48);*/
   position: fixed;
@@ -30,12 +38,12 @@ nav {
   opacity: 0.9;
 }
 header li {
-  font-family: 'Advent Pro', sans-serif;
+  /*font-family: 'Advent Pro', sans-serif;*/
   float: right;
   font-size: 1.0em;
 }
 header li a {
-  font-family: 'Advent Pro', sans-serif;
+  /*font-family: 'Advent Pro', sans-serif;*/
   text-decoration: none;
   font-weight: bold;
   display: block;
@@ -44,7 +52,7 @@ header li a {
   color: rgba(234, 16, 16, 0.79);
 }
 #logo {
-  font-family: 'Advent Pro', sans-serif;
+  /*font-family: 'Advent Pro', sans-serif;*/
   font-weight: bold;
   float: left;
   color: rgba(241, 26, 26, 0.79);
