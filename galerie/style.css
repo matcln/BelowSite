@@ -86,6 +86,7 @@ h1{
     width: 240px;
     height: 160px;
     margin-bottom: 110px;
+    margin-left: 0.5em;
     /*overflow: hidden;*/
     flex-shrink: 0;
 }
@@ -94,7 +95,7 @@ h1{
     background-color: #c25151;
 }
 .item button{
-    width: 80%;
+    width: 100%;
     /*justify-content: center;*/
     padding: 5px 15px;
     background-color: #b4b2b2;
