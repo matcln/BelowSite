@@ -69,6 +69,13 @@ h1{
     font-family: Montserra,sans-serif;
     padding-top: 100px;
 }
+h2{
+    color: #bdbaba;
+    text-align: center;
+    font-size: 75px;
+    font-family: Montserra,sans-serif;
+    padding-top: 100px;
+}
 .galerie{
     display:  flex;
     justify-content: center;
