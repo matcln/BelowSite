@@ -58,7 +58,7 @@ header li a {
 
 
 body{
-    background: url("../media/couverture.png");
+    background: url("../media/couverture-min.png");
     background-size: cover;
     height: 100vh;
 }
