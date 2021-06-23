@@ -92,7 +92,7 @@ h1{
 }
 body{
     /*padding-top: 75px;*/
-    background: url("../media/couverture-min.png"); /* couleur du back ground*/
+    background: url("../media/couverture.png"); /* couleur du back ground*/
     background-size: cover;
 }
 
