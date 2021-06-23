@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FirstMenu</title>
+    <title>Synchronisation Résaux</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,20 +29,20 @@
     <div class="content">
         <div class="card">
             <div class="left">
-                <h1>Le menu principal</h1>
-                <p> Pour jouer en multijoueurs nous avions d'abord besoin que les joueurs puissent se rejoindre et se connecter à un même serveur. Nous avons dpnc réalisé un menu primitid permettant de créer ou rejoindre une salle de jeu. </p>
+                <h1>Synchronisatoin des Mouvements</h1>
+                <p> Nous nous sommes rapidement attelés à rendre chaque joueur visible pour les autres et à synchroniser leurs déplacements. Pour réussir cette tâche nous avons dû utiliser et ajouter les composants Photon View et Photon Transform View à chaque joueur.</p>
             </div>
             <div class="right">
-                <img src="../../../media/oldmenu.PNG">
+                <img src="../../../media/screenTimeLine/syncRéseau1-min.JPG">
             </div>
         </div>
         <div class="card">
             <div class="left">
-                <h1>Le lobby</h1>
-                <p> Arrivés à cette étape nos joueurs peuvent rejoindre une même salle ou en créer une mais rien de plus.  Nous avons rapidement mis en place un script permettant de passer des menus à la scène principale du jeu. </p>
+                <h1>Les Animations</h1>
+                <p> Cependant nous avons rencontré plusieurs problèmes lors de cette dernière étape de synchronisation entre les différents joueurs, notamment avec l'animation des personnages qui empêchait le bon fonctionnement de ces scripts. Depuis la rectification de l'animation et l'ajout du composant Photon Animator View effectué, les différents joueurs peuvent voir les mouvements des autres.</p>
             </div>
             <div class="right">
-                <img src="../../../media/oldroommenu.PNG">
+                <img src="../../../media/screenTimeLine/syncResaux2-min.JPG">
             </div>
         </div>
     </div>
