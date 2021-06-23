@@ -123,17 +123,17 @@ border: 5px solid green;
   border: 5px solid green;
   color: green;}
 .r9{top: 2530px;
-  box-shadow: 0 10px 15px red;
-  border: 5px solid red;
-  color: red;}
+  box-shadow: 0 10px 15px green;
+  border: 5px solid green;
+  color: green;}
 .r10{top: 2836px;
-  box-shadow: 0 10px 15px red;
-  border: 5px solid red;
-  color: red;}
+  box-shadow: 0 10px 15px green;
+  border: 5px solid green;
+  color: green;}
 .r11{top: 3142px;
-  box-shadow: 0 10px 15px red;
-  border: 5px solid red;
-  color: red;}
+  box-shadow: 0 10px 15px yellow;
+  border: 5px solid yellow;
+  color: yellow;}
 
 .box{
   color: #333;
@@ -192,19 +192,20 @@ border: 5px solid green;
   left: calc(50% + 270px);
 }
 .b9{ /* box 5*/
+  border: 3px solid green;
   top : 2530px ;
   left: calc(50% - 270px);
-  box-shadow: 0 10px 15px red;
 }
 .b10{ /* box 5*/
+  border: 3px solid green;
   top : 2836px ;
   left: calc(50% + 270px);
-  box-shadow: 0 10px 15px red;
 }
 .b11{ /* box 5*/
+  border: 3px solid yellow;
   top : 3142px ;
   left: calc(50% - 270px);
-  box-shadow: 0 10px 15px red;
+  box-shadow: 0 10px 15px yellow;
 }
 
 .box p {  /*style des paragraphes*/
