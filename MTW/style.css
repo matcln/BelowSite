@@ -69,7 +69,7 @@ button{
 }
 body{
     /*padding-top: 75px;*/
-    background: url("../../media/couverture.png"); /* couleur du back ground*/
+    background: url("../media/couverture.png"); /* couleur du back ground*/
     background-size: cover;
 }
 
@@ -105,6 +105,6 @@ body{
 }
 .main .content .card .right img{
     height: 300px;
-    width: 400px;
+    width: 500px;
     margin-top: 5px;
 }
