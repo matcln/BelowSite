@@ -109,6 +109,9 @@ h3 {
 }
 /* *************** PRESENTATION ********************** */
 #presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   background-color: rgb(49, 53, 92);
   padding: 10px 0px 100px 0;
